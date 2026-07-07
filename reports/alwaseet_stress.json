@@ -1,0 +1,33 @@
+{
+  "input": "C:\\Projects\\alwaseet_alamin\\data\\benchmarks\\alwaseet_neuralchemy_proxy.jsonl",
+  "records": 15919,
+  "repeat": 3,
+  "processed": 47757,
+  "errors": 0,
+  "leaks": 0,
+  "metrics": {
+    "accuracy": 0.8935234625290533,
+    "precision": 0.9742642815926139,
+    "recall": 0.851523098648376,
+    "specificity": 0.962864279766861,
+    "f1": 0.9087679638301308,
+    "tp": 25326,
+    "tn": 17346,
+    "fp": 669,
+    "fn": 4416
+  },
+  "latency_ms": {
+    "mean": 1.406880779824171,
+    "p99": 10.90319998911582,
+    "max": 242.16080000041984
+  },
+  "memory_mb": {
+    "current": 9.667966,
+    "peak": 14.383396
+  },
+  "elapsed_seconds": 67.35603080000146,
+  "collapse_check": {
+    "passed": true,
+    "criteria": "errors == 0 and leaks == 0"
+  }
+}

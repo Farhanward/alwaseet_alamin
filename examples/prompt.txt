@@ -1,0 +1,1 @@
+Please summarize this customer note: user@example.com token='sk-12345678901234567890'

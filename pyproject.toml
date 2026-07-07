@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alwaseet-alamin"
+version = "1.0.0"
+authors = [{ name = "Farhan Almutairi", email = "far7an.o88@gmail.com" }]
+description = "AI DLP and governance gateway."
+requires-python = ">=3.11"
+readme = "README.md"
+license = { text = "Proprietary" }
+
+[project.scripts]
+alwaseet-alamin = "alwaseet_alamin.cli:main"
+
+[tool.setuptools]
+packages = ["alwaseet_alamin"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
